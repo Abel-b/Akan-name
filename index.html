@@ -2,17 +2,29 @@
 <html>
 
 <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
     <title>Calculate your Day</title>
 </head>
 
 <body>
-    <script src="js/script.js"></script>
-   <div></div>
-    <h2>You Want to know which Day you were born!?</h2>
-    <img src="images/blackweek.jpg" alt="Days of the week">
-
+    <div class="container">
+        <div class="jumbotron">
+            <h1>What's your Akan Name? </h1>
+            <p>Sed finibus sapien luctus pretium interdum. Etiam accumsan nibh neque. Integer congue magna orci, vitae
+                suscipit mi tincidunt quis. Suspendisse fringilla, orci eu aliquet ultricies, libero ipsum maximus
+                massa, et mollis leo massa sed felis. Suspendisse molestie elit non mollis gravida.</p>
+        </div>
+        <script src="js/script.js"></script>
+        <div id="text-box">
+            <h1>You Want to know which Day you were born?</h1>
+            <img src="images/blackweek.jpg" alt="Days of the week">
+            <form action="/action_page.php">
+                Name: <input type="text" name="fullname"><br>
+                Email: <input type="text" name="email"><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
 
 </body>
 
