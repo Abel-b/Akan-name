@@ -1,0 +1,12 @@
+.h1 {
+    box-align: center;
+    font-style: oblique;
+}
+body {
+    background-color: silver;
+  }@media only screen and (max-width: 1000px) {
+    #images-box {
+      flex-direction: column;
+      align-items: center;
+    }
+}
