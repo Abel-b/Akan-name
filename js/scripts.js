@@ -29,3 +29,12 @@ function checkDayValidity() {
       return undefined;
     }
   }
+  function checkGenderValidity() {
+    var inpObj = document.getElementById("gender").value;
+    if (inpObj == "m" || inpObj == "f") {
+      return inpObj;
+    } else {
+      alert("Please input m or f for gender");
+      return undefined;
+    }
+  }
