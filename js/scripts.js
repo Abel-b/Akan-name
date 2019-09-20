@@ -85,3 +85,8 @@ function checkDayValidity() {
       6: "Amma"
     }
   };
+  var dayOfWeek =((Math.floor(cc / 4) - (2 * cc) - 1) + (Math.floor(5 * yy / 4)) + Math.floor((26 * (month + 1)) / 10) + day) % 7;
+console.log("day of week is", dayOfWeek);
+var result = names[gender][dayOfWeek]
+document.getElementById("result").innerText = "Your Akan Name is: " + result;
+}
