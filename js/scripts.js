@@ -38,3 +38,11 @@ function checkDayValidity() {
       return undefined;
     }
   }
+  function calculateAkanName() {
+    document.getElementById("result").innerText = "";
+    console.log("Calculating Akan");
+    var day = checkDayValidity();
+    if (!day) {
+      console.log("day is invalid");
+      return;
+    }
