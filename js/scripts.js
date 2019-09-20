@@ -46,3 +46,8 @@ function checkDayValidity() {
       console.log("day is invalid");
       return;
     }
+    var month = checkMonthValidity();
+    if (!month) {
+      console.log("month is invalid");
+      return;
+    }
