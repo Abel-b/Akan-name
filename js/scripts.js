@@ -61,3 +61,27 @@ function checkDayValidity() {
     console.log("gender is invalid");
     return;
   }
+  console.log("Day", day, "Month", month, "Year", year, "Gender", gender);
+
+  var cc = Math.floor(year / 100);
+  var yy = year % 100;
+  var names = {
+    m: {
+      0: "Kwasi",
+      1: "Kwadwo",
+      2: "Kwabena",
+      3: "Kwaku",
+      4: "Yao",
+      5: "Kofi",
+      6: "Kwamena"
+    },
+    f: {
+      0: "Akosua",
+      1: "Adwoa",
+      2: "Abena",
+      3: "Akua",
+      4: "Yaa",
+      5: "Afua",
+      6: "Amma"
+    }
+  };
