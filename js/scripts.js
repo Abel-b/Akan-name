@@ -34,7 +34,7 @@ function checkDayValidity() {
     if (inpObj == "m" || inpObj == "f") {
       return inpObj;
     } else {
-      alert("Please input m or f for gender");
+      alert("Please input m (for male) or f (for female) for gender");
       return undefined;
     }
   }
