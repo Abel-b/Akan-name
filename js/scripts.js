@@ -20,3 +20,12 @@ function checkDayValidity() {
       return parseInt(inpObj);
     }
   }
+  function checkYearValidity() {
+    var inpObj = document.getElementById("year").value;
+    if (inpObj && inpObj.length == 4) {
+      return parseInt(inpObj);
+    } else {
+      alert("Please input a four digit number for year");
+      return undefined;
+    }
+  }
