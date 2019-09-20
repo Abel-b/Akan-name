@@ -56,3 +56,8 @@ function checkDayValidity() {
     console.log("year is invalid");
     return;
   }
+  var gender = checkGenderValidity();
+  if (!gender) {
+    console.log("gender is invalid");
+    return;
+  }
