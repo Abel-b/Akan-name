@@ -4,31 +4,44 @@
 <head>
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-    <title>Calculate your Day</title>
+    <title>Calculate your Akan-Day</title>
 </head>
 
 <body>
     <div class="container">
         <div class="jumbotron">
             <h1>What's your Akan Name? </h1>
-            <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the
-                order in which they were born. These "day names" have further meanings concerning the soul and character
-                of the person. Middle names have considerably more variety and can refer to their birth order, twin
-                status, or an ancestor's middle name. This naming tradition is shared throughout West Africa and the
-                African diaspora. During the 18th–19th centuries, slaves in the Caribbean from the region that is
+            <p>The Akan people of Ghana frequently name their children after the day of the week they were born
+                and
+                the
+                order in which they were born. These "day names" have further meanings concerning the soul and
+                character
+                of the person. Middle names have considerably more variety and can refer to their birth order,
+                twin
+                status, or an ancestor's middle name. This naming tradition is shared throughout West Africa and
+                the
+                African diaspora. During the 18th–19th centuries, slaves in the Caribbean from the region that
+                is
                 modern-day Ghana were referred to as Coromantees.</p>
-            <p>Many of the leaders of slave rebellions had "day names" including Cuffy or Kofi, Cudjoe or Kojo, and
-                Quamina or Kwame/Kwamina. Most Ghanaians have at least one name from this system, even if they also have
-                an English or Christian name. Notable figures with day names include Ghana's first president Kwame
+            <p>Many of the leaders of slave rebellions had "day names" including Cuffy or Kofi, Cudjoe or Kojo,
+                and
+                Quamina or Kwame/Kwamina. Most Ghanaians have at least one name from this system, even if they
+                also
+                have
+                an English or Christian name. Notable figures with day names include Ghana's first president
+                Kwame
                 Nkrumah and former United Nations Secretary-General Kofi Annan</p>
         </div>
         <script src="js/scripts.js"></script>
-        <div id="text-box">
-            <h1>You Want to know which Day you were born?</h1>
-            <div id="image-box">
-                <img src="images/blackweek.jpg" alt="Days of the week" class="center">
+        <div id="content text-box" class="col-md-4">
+            <div>
+                <h2>You Want to know which Akan-Day you were born?</h2>
+                <div id="image-box">
+                    <img src="images/blackweek.jpg" alt="Days of the week" class="center">
+                </div>
             </div>
             <div>
+                <h3>Fill in your Birthday </h3>
                 <input id="day" type="number" placeholder="Day" min="1" max="31" required /><br>
                 <input id="month" type="number" placeholder="Month" min="1" max="12" required /><br>
                 <input id="year" type="text" placeholder="Year" required /><br>
@@ -36,8 +49,8 @@
                 <button class="button" onclick="calculateAkanName()">Submit</button>
             </div>
         </div>
-        <h3 id="result"></h3>
     </div>
+    <h3 id="result"></h3>
 
 </body>
 

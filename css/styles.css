@@ -2,23 +2,25 @@ body {
     background-color: silver;
   }
 h1{
-color: White;
+color: black;
 font-style: italic;
 text-align: center;
+}
+h3 {
+    color: lime;
+    text-align: center;
+}
+h2 {
+    color: Black;
+    text-align: center;
 }
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-#text-box {
-    border-top: 8px solid silver;
-    border-bottom: 8px solid silver;
-    border-right: 8px solid white;
-    border-left: 8px solid white;
-    padding: 30px;
-    margin: 5px;
-    background-color: black;
+#content {
+    display: flex;
 }
 @media only screen and (max-width: 1000px) {
     #images-box {
