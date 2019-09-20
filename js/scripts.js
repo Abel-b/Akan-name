@@ -51,3 +51,8 @@ function checkDayValidity() {
       console.log("month is invalid");
       return;
     }
+    var year = checkYearValidity();
+  if (!year) {
+    console.log("year is invalid");
+    return;
+  }
