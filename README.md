@@ -29,6 +29,7 @@ This project functions as a birth-Day Calculator.
 
 [website]
 
-### License
+### License and Copyright
 
 MIT License
+Copyright 2019 Abel Berhane

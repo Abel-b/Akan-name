@@ -11,6 +11,8 @@
     <div class="container">
         <div class="jumbotron">
             <h1>What's your Akan Name? </h1>
+            <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as
+                a 'day name' which corresponds to the day in the week they were born.</p>
             <p>The Akan people of Ghana frequently name their children after the day of the week they were born
                 and
                 the
@@ -23,6 +25,29 @@
                 African diaspora. During the 18th–19th centuries, slaves in the Caribbean from the region that
                 is
                 modern-day Ghana were referred to as Coromantees.</p>
+        </div>
+        <script src="js/scripts.js"></script>
+        <div class="text-box">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>You Want to know which Akan-Day you were born?</h2>
+                    <div id="image-box">
+                        <img src="images/blackweek.jpg" alt="Days of the week" class="center">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3>Fill in your Birthday </h3>
+                    <input id="day" type="number" placeholder="Day" min="1" max="31" required /><br>
+                    <input id="month" type="number" placeholder="Month" min="1" max="12" required /><br>
+                    <input id="year" type="text" placeholder="Year" required /><br>
+                    <input id="gender" type="text" placeholder="Gender" max="2019" required /><br>
+                    <button class="button" onclick="calculateAkanName()">Submit</button>
+                </div>
+            </div>
+            <h3 id="result"></h3>
+        </div>
+        </br>
+        <div class="jumbotron">
             <p>Many of the leaders of slave rebellions had "day names" including Cuffy or Kofi, Cudjoe or Kojo,
                 and
                 Quamina or Kwame/Kwamina. Most Ghanaians have at least one name from this system, even if they
@@ -30,28 +55,35 @@
                 have
                 an English or Christian name. Notable figures with day names include Ghana's first president
                 Kwame
-                Nkrumah and former United Nations Secretary-General Kofi Annan</p>
-        </div>
-        <script src="js/scripts.js"></script>
-        <div id="content text-box" class="col-md-4">
-            <div>
-                <h2>You Want to know which Akan-Day you were born?</h2>
-                <div id="image-box">
-                    <img src="images/blackweek.jpg" alt="Days of the week" class="center">
+                Nkrumah and former United Nations Secretary-General Kofi Annan. Here are Ghanian day names:</p>
+            <p><strong>Male</strong></p>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul>
+                        <li>Sunday: Kwasi</li>
+                        <li>Monday: Kwadwo </li>
+                        <li>Tuesday: Kwabena </li>
+                        <li>Wednesday: Kwaku</li>
+                        <li>Thursday: Yaw</li>
+                        <li>Friday: Kofi</li>
+                        <li>Saturday: Kwame</li>
+                    </ul>
                 </div>
-            </div>
-            <div>
-                <h3>Fill in your Birthday </h3>
-                <input id="day" type="number" placeholder="Day" min="1" max="31" required /><br>
-                <input id="month" type="number" placeholder="Month" min="1" max="12" required /><br>
-                <input id="year" type="text" placeholder="Year" required /><br>
-                <input id="gender" type="text" placeholder="Gender" required /><br>
-                <button class="button" onclick="calculateAkanName()">Submit</button>
+                <div class="col-md-6">
+                    <p><strong>Female</strong></p>
+                    <ul>
+                        <li>Sunday: Akosua</li>
+                        <li>Monday: Adwoa </li>
+                        <li>Tuesday: Abenaa </li>
+                        <li>Wednesday: Akua</li>
+                        <li>Thursday: Yaa</li>
+                        <li>Friday: Afua</li>
+                        <li>Saturday: Ama</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
-    <h3 id="result"></h3>
-
 </body>
 
 </html>

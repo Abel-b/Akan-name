@@ -22,10 +22,10 @@ function checkMonthValidity() {
 }
 function checkYearValidity() {
     var inpObj = document.getElementById("year").value;
-    if (inpObj && inpObj.length == 4) {
+    if (inpObj && inpObj.length == 4 && parseInt(inpObj) <= 2019 ) {
         return parseInt(inpObj);
     } else {
-        alert("Please input a four digit number for year");
+        alert("Please input a four digit number for year and not above the current year");
         return undefined;
     }
 }

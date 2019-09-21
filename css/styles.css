@@ -7,11 +7,11 @@ font-style: italic;
 text-align: center;
 }
 h3 {
-    color: lime;
+    color: olivedrab;
     text-align: center;
 }
 h2 {
-    color: Black;
+    color: white;
     text-align: center;
 }
 .center {
@@ -19,9 +19,16 @@ h2 {
     margin-left: auto;
     margin-right: auto;
   }
-#content {
+.text-box {
     display: flex;
-}
+    border-left: 20px solid goldenrod;
+    border-right: 20px solid goldenrod;
+    border-top: 8px solid black;
+    border-bottom: 8px solid black;
+    padding: 30px;
+    margin: 5px;
+    background-color: black;
+  }
 @media only screen and (max-width: 1000px) {
     #images-box {
       flex-direction: column;
