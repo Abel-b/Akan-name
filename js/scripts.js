@@ -22,7 +22,7 @@ function checkMonthValidity() {
 }
 function checkYearValidity() {
     var inpObj = document.getElementById("year").value;
-    if (inpObj && inpObj.length == 4 && parseInt(inpObj) <= 2019 ) {
+    if (inpObj && inpObj.length == 4 && parseInt(inpObj) <= 2019) {
         return parseInt(inpObj);
     } else {
         alert("Please input a four digit number for year and not above the current year");
@@ -36,6 +36,9 @@ function checkGenderValidity() {
     } else {
         alert("Please input m (for male) or f (for female) for gender");
         return undefined;
+    }
+    function clearPrevious() {
+        document.getElementById("result").innerText = "";
     }
 }
 function calculateAkanName() {
