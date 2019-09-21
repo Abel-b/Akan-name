@@ -27,7 +27,7 @@ This project functions as a birth-Day Calculator.
 
 ## Link to website
 
-[website]
+[website] (https://abel-b.github.io/Akan-name/)
 
 ### License and Copyright
 
