@@ -19,8 +19,18 @@ h2 {
     margin-left: auto;
     margin-right: auto;
   }
+  #bday {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+  }
+  input {
+    width: 200px;
+  }
 .text-box {
     display: flex;
+    align-items: center;
     border-left: 20px solid goldenrod;
     border-right: 20px solid goldenrod;
     border-top: 8px solid black;
