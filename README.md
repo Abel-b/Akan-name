@@ -32,7 +32,7 @@ BDD
 
 ## Link to website
 
-[website] (`https://abel-b.github.io/Akan-name/`)
+[website](https://abel-b.github.io/Akan-name/)
 
 ### License and Copyright
 
