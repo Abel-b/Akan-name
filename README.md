@@ -1,4 +1,4 @@
-# Birth-Day Calculator
+# Akan name (Birth-Day Calculator)
 
 #### This is a birth Day Calculator designed to show which day of the week you were born, Sept 19, 2019.
 
@@ -13,7 +13,7 @@ This project functions as a birth-Day Calculator.
 - git (see setup instructions [here](https://www.digitalocean.com/community/tutorials/how-to-contribute-to-open-source-getting-started-with-git))
 - browser
 
-BDD
+## BDD
 - This website requires you to put in your birth day, month and year, and your gender.
 - After inputing the required field, you shall click the submit button below.
 - It then will displays your Akan name.
